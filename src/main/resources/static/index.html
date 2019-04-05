@@ -44,7 +44,7 @@
   $(document).ready(function () {
     $("#invoke").click(function (e) {
       var n = $("#name").val() || "World";
-      $.getJSON("/api/greeting?name=" + n, function (res) {
+      $.getJSON("/api/partnerInfo?name=" + n, function (res) {
         $("#greeting-result").text(JSON.stringify(res));
       });
       e.preventDefault();
