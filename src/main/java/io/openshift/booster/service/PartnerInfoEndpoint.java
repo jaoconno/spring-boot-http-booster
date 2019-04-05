@@ -25,7 +25,7 @@ import javax.ws.rs.QueryParam;
 
 import org.springframework.stereotype.Component;
 
-@Path("/greeting")
+@Path("/partnerInfo")
 @Component
 public class PartnerInfoEndpoint {
     @GET
