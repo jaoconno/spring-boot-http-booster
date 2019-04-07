@@ -10,7 +10,7 @@
 <body>
 
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'Partner')">Partners</button>
+  <button class="tablinks" onclick="openCity(event, 'Partner')" id="defaultOpen">Partners</button>
   <button class="tablinks" onclick="openCity(event, 'Product')">Products</button>
   <button class="tablinks" onclick="openCity(event, 'Accreditation')">Accreditations</button>
 </div>
@@ -89,6 +89,11 @@ function openCity(evt, cityName) {
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+</script>
+
+<script>
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
 </script>
 
 </body>
