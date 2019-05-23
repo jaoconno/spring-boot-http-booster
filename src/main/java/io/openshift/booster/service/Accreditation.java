@@ -2,15 +2,18 @@ package io.openshift.booster.service;
 
 public class Accreditation {
     
+    //Is the accredidation currently active
     private boolean isActive;
-    
+    //Is the accreidation Valid
     private boolean isValid;
-    
+    //Specialty (PAM, RHEL, OCP, OSP)
     private String specialty;
-    
+    //Specialization (Middleware, Cloud, Data Infra)
     private String specialization;
-    
+    //Sales Type (Sales, Sales Engineering, Delivery)
     private String salesType;
+    //Who holds the accredidation
+    private String employee;
 
 	/**
 	 * @return the isActive
