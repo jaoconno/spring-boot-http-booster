@@ -84,6 +84,20 @@ public class Accreditation {
 	public void setSalesType(String salesType) {
 		this.salesType = salesType;
 	}
+
+	/**
+	 * @return the employee
+	 */
+	public String getEmployee() {
+		return employee;
+	}
+
+	/**
+	 * @param employee the employee to set
+	 */
+	public void setEmployee(String employee) {
+		this.employee = employee;
+	}
     
     
 }
