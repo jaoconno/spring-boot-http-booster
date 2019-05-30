@@ -21,13 +21,13 @@ import java.util.List;
 public class PartnerInfo {
 
     //SF ID
-    private Int partnerID;
+    private Integer partnerID;
     //Red Hat Account Owner
     private String partnerOwner;
     //Partner Level (SI, ISV, Ready, Premier)
     private String partnerLevel;
     //Partner HeadQuarters
-    private String partnerHQ:
+    private String partnerHQ;
     //Description of Partner
     private String description;
     //Partner Name
